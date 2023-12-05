@@ -1,0 +1,19 @@
+.categoryFilters{
+    h2{
+        margin-bottom: 1.5rem;
+    }
+    ul{
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+}
+
+.li{
+    transition: .5s;
+    &:hover{
+        cursor: pointer;
+        color: var(--color-primary);
+        font-weight: 700;
+    }
+}

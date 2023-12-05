@@ -1,0 +1,21 @@
+.form{
+    display: flex;
+    gap: 0.4375rem;
+    align-items: center;
+
+    input{
+        &::placeholder{
+            color: var(--color-black)
+        }
+
+        &:hover{
+            border: 1px solid var(--color-black);
+            cursor: pointer;
+
+            &::placeholder{
+                color: var(--color-primary)
+            }
+            
+        }
+    }
+}
